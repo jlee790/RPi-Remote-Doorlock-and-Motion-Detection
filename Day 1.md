@@ -94,6 +94,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
   python /home/pi/sendemail.py
 fi
-
+ 
 exit 0
 ```
